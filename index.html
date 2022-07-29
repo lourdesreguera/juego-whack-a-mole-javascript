@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Whack a mole</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+
+  </head>
+  <body>
+    <div class ="b-container">
+      <h1>Whack a mole!</h1>
+
+        <h2 class="b-container__score--text">Your score:</h2>
+        <h2 data-function="score" class="b-container__score">0</h2>
+
+        <h2 class="b-container__time--text">Seconds left:</h2>
+         <h2 data-function="time-left" class="b-container__time">30</h2>
+
+      <div class="b-grid">
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+      </div>
+
+      <button data-function="new-game" class="b-container__btn">New game</button>
+    </div>
+  </body>
+</html>
